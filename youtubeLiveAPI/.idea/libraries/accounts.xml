@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="accounts">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-android-1.25.0-sources.jar!/com/google/api/client/googleapis/extensions/android/accounts" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-android-1.25.0-sources.jar!/com/google/api/client/googleapis/extensions/android/gms/auth" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-gson-1.25.0-sources.jar!/com/google/api/client/googleapis/notifications/json/gson" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-jackson2-1.25.0-sources.jar!/com/google/api/client/googleapis/notifications/json/jackson2" />
+    </SOURCES>
+  </library>
+</component>

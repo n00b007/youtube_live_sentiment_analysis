@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="google-api-client-1.25.0-sources">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-appengine-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-java6-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-servlet-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-android-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-appengine-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-gson-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-jackson2-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-http-client-jdo-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-appengine-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-java6-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-jetty-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/gson-2.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/httpclient-4.5.5-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/jackson-core-2.9.6-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/jdo2-api-2.3-eb-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/jetty-6.1.26-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/jetty-util-6.1.26-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/transaction-api-1.1-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-android-1.25.0-sources.jar!/com/google/api/client/googleapis/extensions/android/accounts" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-android-1.25.0-sources.jar!/com/google/api/client/googleapis/extensions/android/gms/auth" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-gson-1.25.0-sources.jar!/com/google/api/client/googleapis/notifications/json/gson" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-api-client-jackson2-1.25.0-sources.jar!/com/google/api/client/googleapis/notifications/json/jackson2" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-servlet-1.25.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/libs-sources/google-oauth-client-servlet-1.25.0-sources.jar!/com/google/api/client/extensions/auth/helpers/oauth" />
+    </SOURCES>
+  </library>
+</component>

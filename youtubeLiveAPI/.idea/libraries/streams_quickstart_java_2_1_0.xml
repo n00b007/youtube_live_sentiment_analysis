@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="streams-quickstart-java-2.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/YoutubeLiveStream/streams-quickstart-java-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/src/com/kubera/YoutubeLiveStream/streams-quickstart-java-2.1.0.jar!/" recursive="false" />
+  </library>
+</component>

@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="commons-codec-1.10 (2)">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/DownloadDependencies-0.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-api-client-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-api-services-youtube-v3-rev206-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-http-client-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-http-client-jackson2-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-oauth-client-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-oauth-client-java6-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/google-oauth-client-jetty-1.25.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/guava-20.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/httpclient-4.5.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/httpcore-4.4.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/j2objc-annotations-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/jackson-core-2.9.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/javamail-mailapi-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/jedis-2.9.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/jetty-6.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/jetty-util-6.1.26.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/jsr305-3.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/kafka-clients-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/liveyoutube/lib/servlet-api-2.5-20081211.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

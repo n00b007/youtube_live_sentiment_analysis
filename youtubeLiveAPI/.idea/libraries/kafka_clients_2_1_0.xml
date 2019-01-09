@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="kafka-clients-2.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/YoutubeLiveStream/kafka-clients-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

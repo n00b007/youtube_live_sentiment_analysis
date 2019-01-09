@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="google-api-services-youtube-v3-rev206-1.25.0-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/src/com/kubera/youtube/google-api-services-youtube-v3-rev206-1.25.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

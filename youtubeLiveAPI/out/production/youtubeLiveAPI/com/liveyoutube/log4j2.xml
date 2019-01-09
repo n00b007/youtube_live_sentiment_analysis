@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" monitorInterval="60" packages="com.liveyoutube.log">
+
+    <Appenders>
+        <!-- Console appender -->
+        <Console name="ConsoleAppender" target="SYSTEM_OUT">
+            <!-- Pattern of log message for console appender -->
+            <PatternLayout>
+                <alwaysWriteExceptions>false</alwaysWriteExceptions>
+                <Pattern>%p\t%T\t%d{dd-MM-yyyy}\t%d{HH:mm:ss}{IST}\t%X{X-Request-ID}\t[%c{1}] %m%cex{1}%n</Pattern>
+            </PatternLayout>
+        </Console>
+
+        <!-- File appender -->
+        <RollingFile name="RollingFileAppender"
+                     fileName="/perfios/logs/kubera-logs/kubera.${date:dd-MM-yyyy}.log"
+                     filePattern="/perfios/logs/kubera-logs/kubera.%d{dd-MM-yyyy}.log"
+                     ignoreExceptions="false">
+            <PatternLayout>
+                <alwaysWriteExceptions>false</alwaysWriteExceptions>
+                <Pattern>%p\t%T\t%d{dd-MM-yyyy}\t%d{HH:mm:ss}{IST}\t%X{X-Request-ID}\t[%c{1}] %m%cex{1}%n</Pattern>
+            </PatternLayout>
+            <TimeBasedTriggeringPolicy />
+            <Log4j2CustomRollOverStrategy />
+        </RollingFile>
+
+        <!-- Email appender, trigger email for error events -->
+        <Log4j2MailAppender name="EmailAppender">
+            <ThresholdFilter level="ERROR" onMatch="NEUTRAL" onMismatch="DENY" />
+            <PatternLayout>
+                <alwaysWriteExceptions>false</alwaysWriteExceptions>
+                <Pattern>%p\t%T\t%d{dd-MM-yyyy}\t%d{HH:mm:ss}{IST}\t%X{X-Request-ID}\t[%c{1}] %m%cex{1}%n</Pattern>
+            </PatternLayout>
+        </Log4j2MailAppender>
+
+    </Appenders>
+
+    <Loggers>
+        <!-- Override log level for specified package -->
+        <Logger name="com.liveyoutube"
+                level="INFO">
+        </Logger>
+
+        <Root level="ERROR">
+            <AppenderRef ref="RollingFileAppender" />
+            <AppenderRef ref="EmailAppender" />
+            <!-- print to console -->
+            <!--<AppenderRef ref="ConsoleAppender" />-->
+        </Root>
+
+    </Loggers>
+</Configuration>
