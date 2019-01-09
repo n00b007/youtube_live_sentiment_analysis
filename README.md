@@ -38,20 +38,20 @@ Start UP
 2. Once zookeeper is up and running start the kafka-producer, by going to the apache kafka installation folder and running -> bin/kafka-server-start.sh config/server.properties. Here the server.properties is something I created for my server and it contains the following ->
 
 SNAPSHOT NOT THE COMPLETE FILE
-############################# Zookeeper #############################
+******************* Zookeeper *********************
 
-# Zookeeper connection string (see zookeeper docs for details).
-# This is a comma separated host:port pairs, each corresponding to a zk
-# server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002".
-# You can also append an optional chroot string to the urls to specify the
-# root directory for all kafka znodes.
+ Zookeeper connection string (see zookeeper docs for details).
+ This is a comma separated host:port pairs, each corresponding to a zk
+ server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002".
+ You can also append an optional chroot string to the urls to specify the
+ root directory for all kafka znodes.
 zookeeper.connect=localhost:2181
 
-# Timeout in ms for connecting to zookeeper
+ Timeout in ms for connecting to zookeeper
 zookeeper.connection.timeout.ms=6000
 
 
-############################# Group Coordinator Settings #############################
+******************* Group Coordinator Settings ********************
 
 
 3. Once the kafka producer is up, go to the youtubeLiveAPI/com/liveyoutube/YoutubeLiveStream and run the Main.main() function.
