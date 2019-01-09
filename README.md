@@ -44,7 +44,7 @@ Personally I prefer downloading the libraries and avoiding any unnecessary glunk
 1. Start zookeeper by first going to the zookeeper installation folder, for me it was located at /usr/share/zookeeper. Here run -> bin/zkServer.sh start (sudo maybe required based on your permissions)
 2. Once zookeeper is up and running start the kafka-producer, by going to the apache kafka installation folder and running -> bin/kafka-server-start.sh config/server.properties. Here the server.properties is something I created for my server and it contains the following ->
 
-# SNAPSHOT NOT THE COMPLETE FILE
+SNAPSHOT NOT THE COMPLETE FILE
 ******************* Zookeeper *********************
 
  Zookeeper connection string (see zookeeper docs for details).
