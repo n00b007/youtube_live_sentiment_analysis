@@ -1,9 +1,9 @@
 *****************************************************************************
-SETUP
+# SETUP
 *****************************************************************************
 
 *****************************
-APACHE SPARK, KAFKA, REDIS
+# APACHE SPARK, KAFKA, REDIS
 *****************************
 1. Please set up the apache spark environment in your local machine. Spark version used was 2.3.2 using Hadoop.
 Resource used -> http://www.insightsbot.com/blog/1bHSyT/apache-spark-installation-guide-on-ubuntu-1604-lts
@@ -14,30 +14,30 @@ Resource used -> https://kafka.apache.org/documentation/ and the same from tutor
 4. Apache spark will implement dstreams here which is connected to the kafka streaming consumer which gets the data from the java kafka producer.
 
 *****************************
-JAVA ENVIRONMENT
+# JAVA ENVIRONMENT
 *****************************
 1. Please set up JVM and JDK -> openJDK1.8 or any other version which suits you.
 2. All the files are already present with the requisite libraries. Use the gradle.bat file to load the libraries to the version you want it to be.
 Personally I prefer downloading the libraries and avoiding any unnecessary glunk.
 
 *****************************
-PYTHON
+# PYTHON
 *****************************
 1. Version used 3.5
 2. Please set up flask and have a look at the libraries used and make sure you download them using easy install or pip.
 
 ********************************
-OBTAIN YOUTUBE API CLIENT SECRET
+# OBTAIN YOUTUBE API CLIENT SECRET
 ********************************
 1. https://github.com/youtube/api-samples
 2. https://www.slickremix.com/docs/get-api-key-for-youtube/
 
-Start UP
+# Start UP
 *****************************
 1. Start zookeeper by first going to the zookeeper installation folder, for me it was located at /usr/share/zookeeper. Here run -> bin/zkServer.sh start (sudo maybe required based on your permissions)
 2. Once zookeeper is up and running start the kafka-producer, by going to the apache kafka installation folder and running -> bin/kafka-server-start.sh config/server.properties. Here the server.properties is something I created for my server and it contains the following ->
 
-SNAPSHOT NOT THE COMPLETE FILE
+# SNAPSHOT NOT THE COMPLETE FILE
 ******************* Zookeeper *********************
 
  Zookeeper connection string (see zookeeper docs for details).
@@ -67,7 +67,7 @@ zookeeper.connection.timeout.ms=6000
 13. You can also view the your model's sentiment.
 
 ***************************************
-TODO:
+# TODO:
 ***************************************
 1. Sparkstreaming.. updating the model using the live data stream.
 2. Better visualization.
