@@ -1,9 +1,16 @@
 *****************************************************************************
-SETUP
+# YOUTUBE LIVE SENTIMENT ANALYSIS
+*****************************************************************************
+For a Live stream, there is a multitude of comments which keep pouring in, some which are relevant, some which aren't, but all carry a sentiment, which when analysed can define how people are feeling at a particular point in time. People are judgemental, but now we can quantitatively define how positive or negative their judgement is.
+
+This project uses a DecisionTreeClassification model and NLTK to do a compartitive analysis of the live data stream using PySpark for training the model and running it on streaming data, NLTK with Vader lexicon to compare our model, Java which is used with the YOUTUBE API, to capture the live comments, Kafka which is the producer and the consumer (PySPark), Redis to publish the model results and Flask which provides a nice API framework which can be further enhanced to produce other results.
+
+*****************************************************************************
+# SETUP
 *****************************************************************************
 
 *****************************
-APACHE SPARK, KAFKA, REDIS
+# APACHE SPARK, KAFKA, REDIS
 *****************************
 1. Please set up the apache spark environment in your local machine. Spark version used was 2.3.2 using Hadoop.
 Resource used -> http://www.insightsbot.com/blog/1bHSyT/apache-spark-installation-guide-on-ubuntu-1604-lts
@@ -14,44 +21,44 @@ Resource used -> https://kafka.apache.org/documentation/ and the same from tutor
 4. Apache spark will implement dstreams here which is connected to the kafka streaming consumer which gets the data from the java kafka producer.
 
 *****************************
-JAVA ENVIRONMENT
+# JAVA ENVIRONMENT
 *****************************
 1. Please set up JVM and JDK -> openJDK1.8 or any other version which suits you.
 2. All the files are already present with the requisite libraries. Use the gradle.bat file to load the libraries to the version you want it to be.
 Personally I prefer downloading the libraries and avoiding any unnecessary glunk.
 
 *****************************
-PYTHON
+# PYTHON
 *****************************
 1. Version used 3.5
 2. Please set up flask and have a look at the libraries used and make sure you download them using easy install or pip.
 
 ********************************
-OBTAIN YOUTUBE API CLIENT SECRET
+# OBTAIN YOUTUBE API CLIENT SECRET
 ********************************
 1. https://github.com/youtube/api-samples
 2. https://www.slickremix.com/docs/get-api-key-for-youtube/
 
-Start UP
+# Start UP
 *****************************
 1. Start zookeeper by first going to the zookeeper installation folder, for me it was located at /usr/share/zookeeper. Here run -> bin/zkServer.sh start (sudo maybe required based on your permissions)
 2. Once zookeeper is up and running start the kafka-producer, by going to the apache kafka installation folder and running -> bin/kafka-server-start.sh config/server.properties. Here the server.properties is something I created for my server and it contains the following ->
 
 SNAPSHOT NOT THE COMPLETE FILE
-############################# Zookeeper #############################
+******************* Zookeeper *********************
 
-# Zookeeper connection string (see zookeeper docs for details).
-# This is a comma separated host:port pairs, each corresponding to a zk
-# server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002".
-# You can also append an optional chroot string to the urls to specify the
-# root directory for all kafka znodes.
+ Zookeeper connection string (see zookeeper docs for details).
+ This is a comma separated host:port pairs, each corresponding to a zk
+ server. e.g. "127.0.0.1:3000,127.0.0.1:3001,127.0.0.1:3002".
+ You can also append an optional chroot string to the urls to specify the
+ root directory for all kafka znodes.
 zookeeper.connect=localhost:2181
 
-# Timeout in ms for connecting to zookeeper
+ Timeout in ms for connecting to zookeeper
 zookeeper.connection.timeout.ms=6000
 
 
-############################# Group Coordinator Settings #############################
+******************* Group Coordinator Settings ********************
 
 
 3. Once the kafka producer is up, go to the youtubeLiveAPI/com/liveyoutube/YoutubeLiveStream and run the Main.main() function.
@@ -67,7 +74,7 @@ zookeeper.connection.timeout.ms=6000
 13. You can also view the your model's sentiment.
 
 ***************************************
-TODO:
+# TODO:
 ***************************************
 1. Sparkstreaming.. updating the model using the live data stream.
 2. Better visualization.
