@@ -1,4 +1,11 @@
 *****************************************************************************
+# YOUTUBE LIVE SENTIMENT ANALYSIS
+*****************************************************************************
+For a Live stream, there is a multitude of comments which keep pouring in, some which are relevant, some which aren't, but all carry a sentiment, which when analysed can define how people are feeling at a particular point in time. People are judgemental, but now we can quantitatively define how positive or negative their judgement is.
+
+This project uses a DecisionTreeClassification model and NLTK to do a compartitive analysis of the live data stream using PySpark for training the model and running it on streaming data, NLTK with Vader lexicon to compare our model, Java which is used with the YOUTUBE API, to capture the live comments, Kafka which is the producer and the consumer (PySPark), Redis to publish the model results and Flask which provides a nice API framework which can be further enhanced to produce other results.
+
+*****************************************************************************
 # SETUP
 *****************************************************************************
 
