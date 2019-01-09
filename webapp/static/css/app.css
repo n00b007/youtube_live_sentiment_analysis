@@ -1,0 +1,17 @@
+td.positive {
+    padding: 15px;
+    text-align: left;
+    background-color: lightgreen;
+}
+
+td.negative {
+    padding: 15px;
+    text-align: left;
+    background-color: lightcoral;
+}
+
+td.neutral {
+    padding: 15px;
+    text-align: left;
+    background-color: lightblue;
+}
